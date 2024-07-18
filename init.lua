@@ -1,5 +1,8 @@
 -- Neovim configuration
 
+-- Configure LSP
+require("lspconfig").clangd.setup({})
+
 -- Set color theme
 --  * Default to mocha
 --  * Remove italics from comments and conditionals
