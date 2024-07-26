@@ -26,5 +26,8 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
+-- Enable neogit plugin for a nice git interface inside neovim
+require("neogit").setup({})
+
 -- Enable gitsigns for extended buffer git information
 require("gitsigns").setup({})
