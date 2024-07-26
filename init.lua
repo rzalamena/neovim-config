@@ -4,17 +4,7 @@
 require("lspconfig").clangd.setup({})
 
 -- Set color theme
---  * Default to mocha
---  * Remove italics from comments and conditionals
-require("catppuccin").setup({
-	flavor = "mocha",
-	styles = {
-		comments = {},
-		conditionals = {},
-	},
-})
-
-vim.cmd.colorscheme("catppuccin")
+vim.cmd.colorscheme("tokyonight-night")
 
 -- Remove status bar for a cleaner display
 vim.opt.laststatus = 0
