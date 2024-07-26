@@ -16,6 +16,9 @@ require("catppuccin").setup({
 
 vim.cmd.colorscheme("catppuccin")
 
+-- Remove status bar for a cleaner display
+vim.opt.laststatus = 0
+
 -- Enable telescope for a set of tools for fuzzy searching with a nice
 -- interface
 require("telescope").setup({})
