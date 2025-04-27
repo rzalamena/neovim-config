@@ -10,6 +10,9 @@ vim.cmd.colorscheme("gruvbox")
 -- Remove status bar for a cleaner display
 vim.opt.laststatus = 0
 
+-- Highlight current line
+vim.opt.cursorline = true
+
 -- Enable telescope for a set of tools for fuzzy searching with a nice
 -- interface
 require("telescope").setup({})
