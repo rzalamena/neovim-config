@@ -2,6 +2,7 @@
 
 -- Configure LSP
 require("lspconfig").clangd.setup({})
+require("lspconfig").rust_analyzer.setup({})
 
 -- Set color theme
 vim.cmd.colorscheme("gruvbox")
