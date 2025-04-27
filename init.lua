@@ -4,7 +4,7 @@
 require("lspconfig").clangd.setup({})
 
 -- Set color theme
-vim.cmd.colorscheme("tokyonight-night")
+vim.cmd.colorscheme("gruvbox")
 
 -- Remove status bar for a cleaner display
 vim.opt.laststatus = 0
